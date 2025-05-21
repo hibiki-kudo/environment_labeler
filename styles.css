@@ -1,0 +1,33 @@
+.environment-label {
+    position: fixed;
+    z-index: 9999;
+    padding: 12px 24px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', 'Hiragino Kaku Gothic ProN', sans-serif;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 36px;
+    opacity: 0.9;
+    pointer-events: none;
+}
+
+.environment-label.top-right {
+    top: 10px;
+    right: 10px;
+}
+
+.environment-label.top-left {
+    top: 10px;
+    left: 10px;
+}
+
+.environment-label.bottom-right {
+    bottom: 10px;
+    right: 10px;
+}
+
+.environment-label.bottom-left {
+    bottom: 10px;
+    left: 10px;
+}
